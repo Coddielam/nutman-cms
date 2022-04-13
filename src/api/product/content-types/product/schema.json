@@ -46,9 +46,6 @@
     },
     "product_desc_en": {
       "type": "text"
-    },
-    "product_images": {
-      "type": "json"
     }
   }
 }
