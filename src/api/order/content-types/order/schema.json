@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -36,7 +37,8 @@
       "enum": [
         "pending",
         "in-process",
-        "delivered"
+        "delivered",
+        "dropped"
       ]
     },
     "order_products": {
