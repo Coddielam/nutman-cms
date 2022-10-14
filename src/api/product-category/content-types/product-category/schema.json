@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-category",
     "pluralName": "product-categories",
-    "displayName": "ProductCategory"
+    "displayName": "ProductCategory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,19 @@
       "relation": "manyToMany",
       "target": "api::product.product",
       "mappedBy": "product_categories"
+    },
+    "category_name_en": {
+      "type": "string"
+    },
+    "category_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

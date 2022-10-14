@@ -27,9 +27,8 @@
     "delivery_method": {
       "type": "enumeration",
       "enum": [
-        "face-to-face",
-        "delivery",
-        "pick-up"
+        "IN_PERSON",
+        "DELIVERY"
       ]
     },
     "order_status": {
