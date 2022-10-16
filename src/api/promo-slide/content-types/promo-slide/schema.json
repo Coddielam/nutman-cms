@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promo_slides",
+  "info": {
+    "singularName": "promo-slide",
+    "pluralName": "promo-slides",
+    "displayName": "Promo Slides"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "promotion_slide": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
