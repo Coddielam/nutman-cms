@@ -4,7 +4,8 @@
   "info": {
     "singularName": "promo-slide",
     "pluralName": "promo-slides",
-    "displayName": "Promo Slides"
+    "displayName": "Promo Slides",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,18 @@
   "pluginOptions": {},
   "attributes": {
     "promotion_slide": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
