@@ -20,6 +20,7 @@ module.exports = ({ env }) => ({
       user: env("DATABASE_USERNAME", ""),
       password: env("DATABASE_PASSWORD", ""),
     },
+    acquireConnectionTimeout: 600000,
     useNullAsDefault: true,
   },
 });
