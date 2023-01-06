@@ -3,6 +3,7 @@
 GraphQL API available:
 
 - playground only accessible in development mode
+- Nginx Proxy Manager available on nutman.link:81 (the port is removed when unused; add it by editing the inbound rules for 'strapi')
 
 Deployed on AWS:
 
