@@ -24,17 +24,25 @@
       "mappedBy": "product_categories"
     },
     "category_name_en": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "category_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "feature_stack": {
+      "type": "integer",
+      "required": true,
+      "default": -1
     }
   }
 }
